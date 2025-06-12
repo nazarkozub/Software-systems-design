@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram id="6knDX0fihLF2hDzw3tOR" name="Страница — 1">
+    <mxGraphModel dx="2216" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="100" parent="0" />
+        <mxCell id="101" value="Адміністратор" style="shape=umlActor;" parent="100" vertex="1">
+          <mxGeometry x="410" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="102" value="Увійти в систему" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="240" y="90" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="103" target="104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="103" value="Обрати &#39;Додати рейс&#39;" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry y="100" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="104" value="Вказати напрямок" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry y="200" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="105" value="Вибрати дату і час" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="300" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="106" value="Обрати перевізника" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="-210" y="310" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="Вказати транспорт" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="-360" y="450" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="108" value="Встановити кількість місць" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="-40" y="450" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="109" value="Встановити вартість" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="-110" y="585" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="111" value="Підтвердження замовлення" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="490" y="80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="112" value="Немає вільної дати" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="309" y="290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="113" value="Попередження: транспорт зайнятий" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="-500" y="550" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="114" value="Скасування оплати" style="ellipse;whiteSpace=wrap;html=1;" parent="100" vertex="1">
+          <mxGeometry x="640" y="190" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="" style="endArrow=none;dashed=0;" parent="100" source="102" target="103" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="125" value="extend" style="endArrow=none;dashed=1;" parent="100" source="105" target="112" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="126" value="extend" style="endArrow=none;dashed=1;" parent="100" source="107" target="113" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="127" value="extend" style="endArrow=none;dashed=1;" parent="100" source="111" target="114" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-136" value="Вибрані місця зайняті" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="100">
+          <mxGeometry x="120" y="585" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-137" value="extend" style="endArrow=none;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="108" target="WfiJrjUcjoYuahyxcPDh-136">
+          <mxGeometry as="geometry">
+            <mxPoint x="180" y="520" as="sourcePoint" />
+            <mxPoint x="185" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-138" value="include" style="endArrow=none;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="108" target="109">
+          <mxGeometry as="geometry">
+            <mxPoint x="60" y="540" as="sourcePoint" />
+            <mxPoint x="130" y="622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-139" value="include" style="endArrow=none;dashed=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="106" target="107">
+          <mxGeometry as="geometry">
+            <mxPoint x="-190" y="410" as="sourcePoint" />
+            <mxPoint x="-120" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-140" value="include" style="endArrow=none;dashed=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="106" target="108">
+          <mxGeometry as="geometry">
+            <mxPoint x="-20" y="400" as="sourcePoint" />
+            <mxPoint x="50" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-141" value="include" style="endArrow=none;dashed=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="104" target="106">
+          <mxGeometry as="geometry">
+            <mxPoint x="10" y="280" as="sourcePoint" />
+            <mxPoint x="80" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-142" value="include" style="endArrow=none;dashed=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="100" source="104" target="105">
+          <mxGeometry as="geometry">
+            <mxPoint x="250" y="210" as="sourcePoint" />
+            <mxPoint x="320" y="292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-143" value="include" style="endArrow=none;dashed=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="101" target="111">
+          <mxGeometry as="geometry">
+            <mxPoint x="540" y="60" as="sourcePoint" />
+            <mxPoint x="610" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfiJrjUcjoYuahyxcPDh-144" value="include" style="endArrow=none;dashed=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="100" source="101" target="102">
+          <mxGeometry as="geometry">
+            <mxPoint x="370" y="70" as="sourcePoint" />
+            <mxPoint x="440" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
